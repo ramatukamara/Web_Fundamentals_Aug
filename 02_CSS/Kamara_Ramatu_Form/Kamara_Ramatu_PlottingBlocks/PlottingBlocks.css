@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:whitesmoke;
+}
+#Header{
+    font-size: 80px;
+    color: rgb(235, 23, 23);
+    text-align: center;
+    border: 6px solid black;
+    font-style: initial;
+    background-color:rgb(236, 132, 201);
+    padding: 50px;
+    margin: 40px;
+}
+
+#Head{
+    background-color:white;
+    padding:20px;
+    border: 6px solid black;
+}
+h1{
+    border: 1px solid black;
+}
+
+#slogan{
+    margin: 10px;
+    font-size: 70px;
+    text-align: center;
+}
+#menu> button{
+    size: 100px;
+    padding: 10px;
+    margin: 10px;
+    font-size: xx-large;
+    border: 3px solid black;
+    vertical-center
+
+}
+
+#leftbox{
+    height: 1500px;
+    margin-top: 90px;
+    margin-left: 40px;
+    width: 600px;
+    background-color: rgb(199, 199, 237);
+    display: inline-block;
+    vertical-align: top;
+    border: 6px solid black;
+    
+}
+
+#main{
+    height: 2000px;
+    background-color: rgb(219, 158, 158);
+    width: 2860px;
+    display:inline-block;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin: 90px;
+    padding: 40px;
+    vertical-align: top;
+    border: 6px solid black;
+}
+
+.twobox{
+    height: 1000px;
+    width: 800px;
+    background-color: darkred;
+    border: 4px solid black;
+    display: inline-block;
+    margin: 60px;
+}
+
+#info{
+    height: 600px;
+    width: 2670px;
+    background-color: mediumvioletred;
+    margin: 55px;
+    border: 4px solid black;
+    vertical-align: auto;
+}
