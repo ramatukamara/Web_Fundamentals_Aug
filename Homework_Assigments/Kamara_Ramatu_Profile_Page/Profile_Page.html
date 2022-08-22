@@ -9,27 +9,85 @@
 </head>
 <body>
     <div id="Bar">
-        <h1>Profile</h1>
         <ul id="Sign">
-            <li><a href="1">Home</a></li>
-            <li><a href="2">Shop All</a></li>
-            <li><a href="3">Find Connections</a></li>
-        <div id="Sign_Out"> 
-            <button>Sign Out </button>
+            <li><h1>Profile</h1></li>
+            <li class="Inside"><a href="1">Home</a></li>
+            <li class="Inside"><a href="2">My Profile</a></li>
+            <li class="Inside"><a href="3">Find Connections</a></li>
+        </ul>
+        <button>Sign Out </button>
     </div>
-    </ul>
-    
-    </div>
-    <div id="container">
-        <div id="cover-photo">
-    </div>
-        <div id="container_2">
-            <div id="info">
+    <div id="container"> 
+        <div class="col_main">
+            <div id="contain">
+                <div id="info">
+                    <img src="./jane-m.jpg" alt="">
+                </div>
+                <h2>Jane Doe</h2>
+                <div id="location">
+                    <img src="./map-marker.png" alt="">
+                    <p>Seattle</p>
+                </div>
+                <div id="Describer">
+                    <p>Devoloper | Engineer | Problem Solver 
+                    <br>
+                        Master of shadows and the Internet!
+                    </p>
+                    <div id="Describer_2">
+                    <img src="./gear.png" alt="">
+                    <a href="#">edit profile</a>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
+        <div class="col_bottom">
+            <div id="contain_2">
+                <div id="info_2">
+                    <p>Education</p>
+                </div>
+                <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                <p id="p_2">Dec 2019 - Mar 2020</p>
+                <p id="p_3">Triple black belt in Python, MERN, and C#...</p>
+            </div>
         </div>
     </div>
-
+    <div id="Second_Container">
+        <div class="col_Requests">
+            <div id="contain_3">
+                <div id="info_3">
+                    <p><span class="count">2</span> Connection Requests</p>
+                </div>
+                <div class="small">
+                    <img class="other" src="./alayne-s.jpg" alt=""><span>Alayne S</span>
+                    <img class="icons" src="./accept-circle.png" alt="">
+                    <img class="icons" src="./close-circle.png" alt="">
+                </div>
+                <div class="small">
+                    <img class="other" src="./anne-s.jpg" alt=""><span>Anne S</span>
+                    <img class="icons" src="./accept-circle.png" alt="">
+                    <img class="icons" src="./close-circle.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col_Connections">
+            <div id="contain_4">
+                <div id="info_4">
+                    <p><span class="count">500+</span> Your Connections</p>
+                </div>
+                <div class="small_2">
+                    <img class="other" src="./adrien-s.jpg" alt=""><span>Adrien D</span>
+                    <br>
+                    <img class="other" src="./arry-s.jpg" alt=""><span>Arry Y</span>
+                    <br>
+                    <img class="other" src="./phil-s.jpg" alt=""><span>Phil S</span>
+                    <br>
+                    <img class="other" src="./todd-s.jpg" alt=""><span>Todd S</span>
+                </div>
+                <div id="view-more">
+                <a href="View">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
