@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#Bar {
+    width: 920px;
+    background-color: rgb(204,204,204);
+    /* border: 3px solid black; */
+    margin: 0px 170px;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex: 2; */
+    /* position: fixed; */
+}
+
+#Bar>h1 {
+    font-size: 50px;
+    margin-right: 110px;
+}
+
+
+#Bar>button {
+    background-color: rgb(43,120,228);
+    padding: 2px 15px;
+    margin-left: 125px;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+}
+
+#Bar>input {
+    width: 225px;
+    border: 3px solid black;
+    padding: 2px 5px;
+}
+
+
+#Parents {
+    display: flex;
+}
+
+#Containers {
+    margin: 40px 170px;
+    flex: 50%;
+}
+
+.Lefty {
+    border: 3px solid black;
+    width: 600px;
+    height: 190px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Box {
+    margin: 20px 30px;
+}
+
+.Lefty h2 {
+    font-size: 45px;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+.Box>em {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.Box>p {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.Box>button {
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: rgb(255,217,102);
+    box-shadow: 3px 3px 3px black;
+}
+
+.Phrase {
+    margin-left: 55px;
+}
+
+#Right {
+    background-color: bisque;
+    width: 290px;
+    height: 150px;
+    margin: 60px -140px;
+    padding: 10px 30px;
+    border: 3px solid black;
+    flex: 50%;
+}
+
+#Right p {
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#Right span {
+    font-weight: 700;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+#Right button {
+    background-color: rgb(147,196,125);
+    font-weight: bold;
+    margin: 25px 55px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px black;
+}
