@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Merriweather', serif;
+}
+
+#Search_Bar {
+    /* border: 3px solid black; */
+    display: flex;
+    /* margin: 35px 165px; */
+    margin-top: 35px;
+    margin-left: 185px;
+    align-items: center;
+}
+
+#Search_Bar>h2 {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+#Search_Bar>input {
+    border-radius: 25px;
+    padding: 10px;
+    height: 35px;
+    width: 860px;
+    margin-right: 20px;
+}
+
+#Search_Bar>a {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+a, a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+#age1 {
+    background-color: rgb(0,187,180);
+    height: 45px;
+    margin-right: 10px;
+}
+
+#age2 {
+    height: 45px;
+    margin-right: 10px;
+}
+
+#List_Bar {
+    display: flex;
+    border-bottom: 4px solid black;
+    margin: 15px 185px;
+    width: 1180px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#List_Bar>a {
+    font-size: 12px;
+}
+
+h1 {
+    margin: 20px 399px;
+}
+
+#Top {
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 3px solid; */
+    margin: 15px 185px;
+    width: 1180px;
+}
+
+#Left {
+    background-color: rgb(0,187,180);
+    padding: 40px 40px;
+    height: 350px;
+    width: 410px;
+}
+
+#Left>p {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 95px;
+}
+
+#Left>a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+#Left>a {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-left: 45px;
+}
+
+#Left img {
+    height: 36px;
+}
+
+#Middle>img {
+    height: 350px;
+    width: 370px;
+    margin-right: 30px;
+}
+
+#Right>img {
+    width: 370px;
+}
+
+#Bottom_Left {
+    background-color: rgb(0,187,180);
+    margin-top: 15px;
+    height: 83px;
+}
+
+#Bottom_Left>h3 {
+    margin-left: 30px;
+    padding: 30px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+#Bottom_Left img {
+    height: 20px;
+}
+
+#Bottom {
+    display: flex;
+    background-color: rgb(174,234,233);
+    margin: 20px 185px;
+    justify-content: space-evenly;
+    width: 1180px;
+    height: 250px;
+    align-items: center;
+}
+
+#Bottom img {
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 25px;
+}
+
+#Fle {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.Flow {
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.Flo {
+    font-size: 15px;
+    margin-left: 32px;
+}
+
+#fly {
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+#Cookie {
+    background-color: white;
+    border: 3px solid black;
+    width: 1180px;
+    margin: -240px 185px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+
+#Cookie button {
+    background-color: rgb(0,187,180);
+    padding: 5px 17px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 3px 3px 3px black;
+    border: 3px solid black;
+}
+
+#Cookie a {
+    color: blue;
+}
